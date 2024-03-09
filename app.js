@@ -11,9 +11,43 @@ app.use(bodyParser.urlencoded({extended: true}));
 app.set('view engine', 'ejs');
 
 
-const homeStartingContent = "Lacus vel facilisis volutpat est velit egestas dui id ornare. Semper auctor neque vitae tempus quam. Sit amet cursus sit amet dictum sit amet justo. Viverra tellus in hac habitasse. Imperdiet proin fermentum leo vel orci porta. Donec ultrices tincidunt arcu non sodales neque sodales ut. Mattis molestie a iaculis at erat pellentesque adipiscing. Magnis dis parturient montes nascetur ridiculus mus mauris vitae ultricies. Adipiscing elit ut aliquam purus sit amet luctus venenatis lectus. Ultrices vitae auctor eu augue ut lectus arcu bibendum at. Odio euismod lacinia at quis risus sed vulputate odio ut. Cursus mattis molestie a iaculis at erat pellentesque adipiscing.";
-const aboutContent = "Hac habitasse platea dictumst vestibulum rhoncus est pellentesque. Dictumst vestibulum rhoncus est pellentesque elit ullamcorper. Non diam phasellus vestibulum lorem sed. Platea dictumst quisque sagittis purus sit. Egestas sed sed risus pretium quam vulputate dignissim suspendisse. Mauris in aliquam sem fringilla. Semper risus in hendrerit gravida rutrum quisque non tellus orci. Amet massa vitae tortor condimentum lacinia quis vel eros. Enim ut tellus elementum sagittis vitae. Mauris ultrices eros in cursus turpis massa tincidunt dui.";
-const contactContent = "Scelerisque eleifend donec pretium vulputate sapien. Rhoncus urna neque viverra justo nec ultrices. Arcu dui vivamus arcu felis bibendum. Consectetur adipiscing elit duis tristique. Risus viverra adipiscing at in tellus integer feugiat. Sapien nec sagittis aliquam malesuada bibendum arcu vitae. Consequat interdum varius sit amet mattis. Iaculis nunc sed augue lacus. Interdum posuere lorem ipsum dolor sit amet consectetur adipiscing elit. Pulvinar elementum integer enim neque. Ultrices gravida dictum fusce ut placerat orci nulla. Mauris in aliquam sem fringilla ut morbi tincidunt. Tortor posuere ac ut consequat semper viverra nam libero.";
+const homeStartingContent = `
+  JavaScript: The Most Popular Programming Language of the Web
+
+  JavaScript, often abbreviated as JS, is a high-level programming language that is widely used for web development. As the backbone of dynamic web pages, JavaScript allows developers to create interactive and engaging user experiences.
+
+  Key Features of JavaScript:
+  - Lightweight and versatile: JavaScript is lightweight and versatile, making it suitable for a wide range of applications.
+  - Client-side scripting: JavaScript runs on the client-side, enabling dynamic content manipulation and interaction within web browsers.
+  - Object-oriented: JavaScript supports object-oriented programming paradigms, allowing developers to create reusable and modular code.
+  - Event-driven programming: JavaScript uses event-driven programming, where actions or events trigger specific functions or behaviors.
+  - Rich ecosystem: JavaScript has a rich ecosystem of libraries, frameworks, and tools, such as React, Angular, and Vue.js, which streamline development and enhance productivity.
+
+  JavaScript is the foundation of modern web development, powering everything from simple interactive forms to complex single-page applications (SPAs). With its widespread adoption and continuous evolution, JavaScript remains the most popular programming language of the web.
+`;
+
+const aboutContent = `
+  About Our Company
+
+  Our company is dedicated to providing innovative solutions in the field of technology. With a team of passionate individuals, we strive to deliver high-quality products and services that meet the needs of our clients.
+
+  Key Highlights:
+  - Expertise: Our team consists of skilled professionals with expertise in various domains, including web development, mobile app development, artificial intelligence, and more.
+  - Collaboration: We believe in the power of collaboration and teamwork. By working closely with our clients, we ensure that their requirements are met and their expectations are exceeded.
+  - Innovation: Innovation is at the heart of everything we do. We continuously explore new technologies and approaches to stay ahead of the curve and deliver cutting-edge solutions.
+  - Customer Satisfaction: Customer satisfaction is our top priority. We go above and beyond to ensure that our clients are happy with the results and receive the support they need.
+
+  At our company, we are committed to excellence, integrity, and customer success. Partner with us and experience the difference!
+`;
+
+const contactContent = `
+  Contact Us
+
+  Have a question or inquiry? Feel free to reach out to us! Our team is here to assist you and address any concerns you may have.
+
+  Whether you're interested in our services, have feedback to share, or simply want to say hello, we'd love to hear from you. Get in touch with us today!
+`;
+
 
 let posts = [];
 
