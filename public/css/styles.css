@@ -123,6 +123,7 @@ body {
     text-align: center;
     position: fixed;
     width: 100%;
+    height: auto;
     bottom: 0;
 }
 
@@ -137,6 +138,22 @@ body {
     margin: 0;
     font-size: 16px;
 }
+
+/* Social Links Styles */
+.social-links {
+    text-align: center;
+}
+
+.social-link {
+    margin: 20px 5px;
+    color: #fff; /* Set color to white */
+    font-size: 24px;
+    transition: color 0.3s ease;
+}
+.social-link:hover {
+    color: #3498db; /* Change color on hover */
+}
+
 
 /* Responsive Styles */
 @media screen and (max-width: 768px) {
