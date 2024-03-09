@@ -51,7 +51,7 @@ The **Daily Journal** app consists of the following pages:
    ```
 3. Start the server:
    ```
-   npm start
+   nodemon start
    ```
 4. Access the app in your web browser:
    ```
